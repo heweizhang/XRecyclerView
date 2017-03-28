@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">XRecyclerView</string>
+
+    <string name="op_titletext">OnePlus releases leather case for OnePlus 3 and 3T</string>
+    <string name="op_subtext">OnePlus has released a leather case for the OnePlus 3/3T. Even though there are several cases for the OnePlus 3/3T, this one will offer a premium look for the smartphone. It has textured calfskin leather blend along with a classic matte finish making it easy to clean and also offers a comfortable grip.</string>
+    <string name="op_image_url">http://images.fonearena.com/blog/wp-content/uploads/2016/12/OnePlus-3-and-3T-leather-case-1.jpg</string>
+    <string name="op_summarytext">You\'ve shown interest in One Plus</string>
+</resources>
