@@ -16,12 +16,14 @@
         android:id="@+id/btn_list"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+
         android:text="List " />
 
 
     <Button
         android:id="@+id/btn_grid"
         android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
         android:layout_height="wrap_content"
         android:text="Grid " />
 
@@ -29,5 +31,13 @@
         android:id="@+id/btn_waterful"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
         android:text="Waterful flow " />
+
+    <Button
+        android:id="@+id/btn_multiItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="multi item " />
 </LinearLayout>

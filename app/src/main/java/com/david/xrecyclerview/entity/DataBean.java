@@ -4,11 +4,11 @@ package com.david.xrecyclerview.entity;
  * Created by david on 17/3/28.
  */
 
-public class DemoBean {
+public class DataBean {
     private int imageId;
     private String content;
 
-    public DemoBean(int imageId, String content) {
+    public DataBean(int imageId, String content) {
         this.imageId = imageId;
         this.content = content;
     }

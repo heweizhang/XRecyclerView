@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.david.xrecyclerview.R;
-import com.david.xrecyclerview.entity.DemoBean;
+import com.david.xrecyclerview.entity.DataBean;
 
 import java.util.List;
 
@@ -21,9 +21,9 @@ import java.util.List;
 public class ListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
     private Context context;
-    private List<DemoBean> data;
+    private List<DataBean> data;
 
-    public ListAdapter(Context context, List<DemoBean> data) {
+    public ListAdapter(Context context, List<DataBean> data) {
         this.context = context;
         this.data = data;
     }

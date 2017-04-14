@@ -8,7 +8,6 @@
     <android.support.v7.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:clickable="true"
         android:layout_margin="10dp"
         android:foreground="?android:attr/selectableItemBackground"
         app:cardCornerRadius="@dimen/cardview_radius"
@@ -30,8 +29,10 @@
             <TextView
                 android:id="@+id/tv_content"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="80dp"
                 android:padding="5dp"
+                android:ellipsize="end"
+                android:maxLines="4"
                 android:text="@string/op_subtext" />
 
         </LinearLayout>

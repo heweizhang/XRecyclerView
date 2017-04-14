@@ -39,6 +39,14 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+        findViewById(R.id.btn_multiItem).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                startActivity(new Intent(MainActivity.this, DemoActivity.class).putExtra("type", Constants.MULTI_LIST));
+
+            }
+        });
 
 
     }
