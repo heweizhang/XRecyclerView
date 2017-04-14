@@ -6,13 +6,16 @@
 
 本系列文章将从RecyclerView的使用，RecyclerView.Adapter的封装，源码分析等多个部分来让大家较深入的了解这个强大的控件
 
-本RecyclerView系列初步规划内容大致如下，源码托管在github上：
+本RecyclerView系列初步规划内容大致如下：
 
-基础使用介绍(结合CardView)
-item刷新动画、item view点击监听
-多布局使用
-adapter封装
-下拉刷新，上拉加载
-Item侧滑删除，置顶，长按拖拽Item
-加载中界面
-RecyclerView源码分析
+- 基础使用介绍(结合CardView)
+- item刷新动画、item view点击监听
+- 多布局使用
+- adapter封装
+- 下拉刷新，上拉加载
+- Item侧滑删除，置顶，长按拖拽Item
+- 加载中界面
+- RecyclerView源码分析
+
+---
+baserecyclerview 封装
